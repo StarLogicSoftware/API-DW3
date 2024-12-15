@@ -6,6 +6,7 @@
   "type": "module",
   "scripts": {
     "start": "node index.js",
+    "build":"prisma generate",
     "dev": "node --watch index.js",
     "seed": "node seeds/seedsNotas.js"
   },
